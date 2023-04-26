@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "data-engineering-ny-collisions"
+version = "0.1.0"
+description = ""
+authors = ["Geo Hernandez <geohernandez@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_engineering_ny_collisions"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pendulum = "^2.1.2"
+requests = "^2.28.2"
+apache-airflow-providers-postgres = "^5.4.0"
+azure-storage-blob = "^12.16.0"
+azure-identity = "^1.12.0"
+logging = "^0.4.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
